@@ -1,0 +1,982 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri May 21 16:09:37 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 65)
+OBJ = $(PROJDIR)Object/
+# makefile (from 'Makefile', line 188)
+KITOBJ = $(OBJ)dcmkit.o $(OBJ)envkit.o $(OBJ)fswkit.o $(OBJ)geomkit.o $(OBJ)iokit.o $(OBJ)mathkit.o $(OBJ)nrlmsise00kit.o $(OBJ)msis86kit.o $(OBJ)orbkit.o $(OBJ)radbeltkit.o $(OBJ)sigkit.o $(OBJ)sphkit.o $(OBJ)timekit.o
+# environment
+VSCODE_AGENT_FOLDER = /home/jinyoung/.vscode-server
+# makefile (from 'Makefile', line 67)
+SRC = $(PROJDIR)Source/
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 13)
+42PLATFORM = __linux__
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 52)
+GMSECBIN = 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/jinyoung/NST_42/42
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 178)
+SIMIPCOBJ = $(OBJ)SimWriteToFile.o $(OBJ)SimWriteToSocket.o $(OBJ)SimReadFromFile.o $(OBJ)SimReadFromSocket.o 
+# makefile (from 'Makefile', line 53)
+GMSECLIB = 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/jinyoung/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/node
+# makefile (from 'Makefile', line 200)
+CFLAGS = -Wall -Wshadow -Wno-deprecated -g  $(ANSIFLAGS) $(GLINC) $(CINC) -I $(INC) -I $(KITINC) -I $(KITSRC) $(GMSECINC) -O0 $(ARCHFLAG) $(GUIFLAG) $(SHADERFLAG) $(CFDFLAG) $(FFTBFLAG) $(GSFCFLAG) $(GMSECFLAG) $(STANDALONEFLAG) $(GLFWFLAG)
+# makefile (from 'Makefile', line 103)
+GUIOBJ = $(OBJ)42GlutGui.o $(OBJ)glkit.o
+# makefile (from 'Makefile', line 100)
+EXTERNDIR = 
+# makefile (from 'Makefile', line 175)
+GMSECOBJ = 
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 50)
+GMSECDIR = 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 105)
+GLINC = -I $(KITDIR)/include/GL/
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 152)
+FFTBOBJ = 
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/Jinyoung_NST/AppData/Local/Programs/Microsoft VS Code
+# makefile (from 'Makefile', line 12)
+AUTOPLATFORM = Succeeded
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/jinyoung/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/HP/Common/HPDestPlgIn/:/mnt/c/Program Files (x86)/HP/IdrsOCR_15.3.1129.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Jinyoung_NST/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/HP/Common/HPDestPlgIn/:/mnt/c/Users/Jinyoung_NST/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Jinyoung_NST/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+# makefile (from 'Makefile', line 72)
+IPCSRC = $(SRC)IPC/
+# makefile (from 'Makefile', line 35)
+FFTBFLAG = 
+# makefile (from 'Makefile', line 45)
+GLFWFLAG = -D _USE_GLFW_
+# makefile (from 'Makefile', line 68)
+KITINC = $(KITDIR)Include/
+# makefile (from 'Makefile', line 64)
+KITDIR = $(PROJDIR)Kit/
+# makefile (from 'Makefile', line 69)
+KITSRC = $(KITDIR)Source/
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ab250a0c-461d-4e7d-a48e-48844d400b88.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 10)
+UNAME_S := Linux
+# environment
+DISPLAY = 172.23.240.1:0.0
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 116)
+EXENAME = 42
+# environment
+PWD = /home/jinyoung/NST_42/42
+# makefile (from 'Makefile', line 194)
+ACIPCOBJ = $(OBJ)AppReadFromFile.o $(OBJ)AppWriteToSocket.o $(OBJ)AppReadFromSocket.o $(OBJ)AppWriteToFile.o
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/15_interop
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/jinyoung
+# makefile (from 'Makefile', line 108)
+ARCHFLAG = 
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = jinyoung
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 192)
+ACKITOBJ = $(OBJ)dcmkit.o $(OBJ)mathkit.o $(OBJ)fswkit.o $(OBJ)iokit.o $(OBJ)timekit.o
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 99)
+CINC = 
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 198)
+ANSIFLAGS = 
+# makefile (from 'Makefile', line 182)
+42OBJ = $(OBJ)42main.o $(OBJ)42exec.o $(OBJ)42actuators.o $(OBJ)42cmd.o $(OBJ)42dynamics.o $(OBJ)42environs.o $(OBJ)42ephem.o $(OBJ)42fsw.o $(OBJ)42init.o $(OBJ)42ipc.o $(OBJ)42perturb.o $(OBJ)42report.o $(OBJ)42sensors.o $(OBJ)42nos3.o
+# makefile (from 'Makefile', line 117)
+CC = gcc
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = jinyoung
+# makefile
+.DEFAULT_GOAL := 42
+# makefile (from 'Makefile', line 26)
+GUIFLAG = -D _USE_GUI_
+# environment
+NAME = DESKTOP-P9F3FFM
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 107)
+LFLAGS = -L $(KITDIR)/GL/lib/
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Jinyoung_NST/.vscode/extensions/ms-vscode-remote.remote-wsl-0.56.2
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 66)
+INC = $(PROJDIR)Include/
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 158)
+SLOSHOBJ = 
+# automatic
++F = $(notdir $+)
+# makefile (from 'Makefile', line 29)
+SHADERFLAG = -D _USE_SHADERS_
+# makefile (from 'Makefile', line 75)
+EMBEDDED = 
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 39)
+GSFCFLAG = -D _USE_GSFC_WATERMARK_
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# makefile (from 'Makefile', line 63)
+PROJDIR = ./
+# makefile (from 'Makefile', line 47)
+GMSECFLAG = 
+# makefile (from 'Makefile', line 71)
+GSFCSRC = $(PROJDIR)/GSFC/Source/
+# makefile (from 'Makefile', line 62)
+HOMEDIR = ./
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 32)
+CFDFLAG = 
+# makefile (from 'Makefile', line 70)
+INOUT = $(PROJDIR)InOut/
+# environment
+HOSTTYPE = x86_64
+# makefile (from 'Makefile', line 106)
+LIBS = -lglut -lGLU -lGL -ldl -lm -lpthread
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 165)
+ACOBJ = $(OBJ)AcApp.o
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 41)
+STANDALONEFLAG = 
+# makefile (from 'Makefile', line 51)
+GMSECINC = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/jinyoung/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu-20.04
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=105/588=18%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2064, inode 94185): 29 files, no impossibilities.
+
+# 29 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Kit/Source/sigkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42environs.c:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/AcApp.o: Source/AcApp.c Include/Ac.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 310):
+	$(CC) $(CFLAGS) -c $(SRC)AcApp.c -o $(OBJ)AcApp.o
+
+Object/SimWriteToFile.o: Source/IPC/SimWriteToFile.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 313):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimWriteToFile.c -o $(OBJ)SimWriteToFile.o
+
+# Not a target:
+Source/42nos3.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Include/42glfwgui.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42report.o: Source/42report.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 253):
+	$(CC) $(CFLAGS) -c $(SRC)42report.c -o $(OBJ)42report.o
+
+# Not a target:
+Kit/Source/radbeltkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/glkit.o: Kit/Source/glkit.c Kit/Include/glkit.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 268):
+	$(CC) $(CFLAGS) -c $(KITSRC)glkit.c -o $(OBJ)glkit.o
+
+Object/orbkit.o: Kit/Source/orbkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 289):
+	$(CC) $(CFLAGS) -c $(KITSRC)orbkit.c -o $(OBJ)orbkit.o
+
+Object/42dynamics.o: Source/42dynamics.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 226):
+	$(CC) $(CFLAGS) -c $(SRC)42dynamics.c -o $(OBJ)42dynamics.o
+
+# Not a target:
+GSFC/Source/42CfdSlosh.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42cmd.o: Source/42cmd.c Include/42.h Include/Ac.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 223):
+	$(CC) $(CFLAGS) -c $(SRC)42cmd.c -o $(OBJ)42cmd.o
+
+Object/42actuators.o: Source/42actuators.c Include/42.h Include/Ac.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 220):
+	$(CC) $(CFLAGS) -c $(SRC)42actuators.c -o $(OBJ)42actuators.o
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/geomkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/gmseckit.o: Kit/Source/gmseckit.c Kit/Include/gmseckit.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 274):
+	$(CC) $(CFLAGS) -c $(KITSRC)gmseckit.c -o $(OBJ)gmseckit.o
+
+# Not a target:
+Source/IPC/AppWriteToGmsec.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/fswkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/geomkit.o: Kit/Source/geomkit.c Kit/Include/geomkit.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 271):
+	$(CC) $(CFLAGS) -c $(KITSRC)geomkit.c -o $(OBJ)geomkit.o
+
+# Not a target:
+Source/42cmd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/timekit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/AppWriteToSocket.o: Source/IPC/AppWriteToSocket.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 340):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppWriteToSocket.c -o $(OBJ)AppWriteToSocket.o
+
+Object/42sensors.o: Source/42sensors.c Include/42.h Include/Ac.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 256):
+	$(CC) $(CFLAGS) -c $(SRC)42sensors.c -o $(OBJ)42sensors.o
+
+Object/sigkit.o: Kit/Source/sigkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 295):
+	$(CC) $(CFLAGS) -c $(KITSRC)sigkit.c -o $(OBJ)sigkit.o
+
+Object/AppReadFromSocket.o: Source/IPC/AppReadFromSocket.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 349):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppReadFromSocket.c -o $(OBJ)AppReadFromSocket.o
+
+# Not a target:
+Source/42ephem.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42glfwgui.o: Source/42glfwgui.c Include/42.h Include/42glfwgui.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 238):
+	$(CC) $(CFLAGS) -c $(SRC)42glfwgui.c -o $(OBJ)42glfwgui.o
+
+# Not a target:
+Source/IPC/AppReadFromFile.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+42: Object/42main.o Object/42exec.o Object/42actuators.o Object/42cmd.o Object/42dynamics.o Object/42environs.o Object/42ephem.o Object/42fsw.o Object/42init.o Object/42ipc.o Object/42perturb.o Object/42report.o Object/42sensors.o Object/42nos3.o Object/42GlutGui.o Object/glkit.o Object/SimWriteToFile.o Object/SimWriteToSocket.o Object/SimReadFromFile.o Object/SimReadFromSocket.o Object/dcmkit.o Object/envkit.o Object/fswkit.o Object/geomkit.o Object/iokit.o Object/mathkit.o Object/nrlmsise00kit.o Object/msis86kit.o Object/orbkit.o Object/radbeltkit.o Object/sigkit.o Object/sphkit.o Object/timekit.o Object/AcApp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 206):
+	$(CC) $(LFLAGS) $(GMSECBIN) -o $(EXENAME) $(42OBJ) $(GUIOBJ) $(FFTBOBJ) $(SLOSHOBJ) $(KITOBJ) $(ACOBJ) $(GMSECOBJ) $(SIMIPCOBJ) $(LIBS) $(GMSECLIB)
+
+Object/42perturb.o: Source/42perturb.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 250):
+	$(CC) $(CFLAGS) -c $(SRC)42perturb.c -o $(OBJ)42perturb.o
+
+Object/radbeltkit.o: Kit/Source/radbeltkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 292):
+	$(CC) $(CFLAGS) -c $(KITSRC)radbeltkit.c -o $(OBJ)radbeltkit.o
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-21 15:58:30.88
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Source/42ipc.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/IPC/SimReadFromSocket.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42fsw.o: Source/42fsw.c Include/Ac.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 235):
+	$(CC) $(CFLAGS) -c $(SRC)42fsw.c -o $(OBJ)42fsw.o
+
+Object/fswkit.o: Kit/Source/fswkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 265):
+	$(CC) $(CFLAGS) -c $(KITSRC)fswkit.c -o $(OBJ)fswkit.o
+
+# Not a target:
+Source/IPC/AppWriteToFile.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/AcApp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Include/AcTypes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/SimReadFromFile.o: Source/IPC/SimReadFromFile.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 322):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimReadFromFile.c -o $(OBJ)SimReadFromFile.o
+
+# Not a target:
+Kit/Source/gmseckit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/timekit.o: Kit/Source/timekit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 301):
+	$(CC) $(CFLAGS) -c $(KITSRC)timekit.c -o $(OBJ)timekit.o
+ 
+
+# Not a target:
+Source/IPC/SimWriteToGmsec.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42exec.o: Source/42exec.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CC) $(CFLAGS) -c $(SRC)42exec.c -o $(OBJ)42exec.o
+
+# Not a target:
+Kit/Source/nrlmsise00kit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/envkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42report.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Include/Ac.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42dynamics.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/SimWriteToSocket.o: Source/IPC/SimWriteToSocket.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 319):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimWriteToSocket.c -o $(OBJ)SimWriteToSocket.o
+
+# Not a target:
+Include/42GlutGui.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42actuators.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/AppReadFromGmsec.o: Source/IPC/AppReadFromGmsec.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 346):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppReadFromGmsec.c -o $(OBJ)AppReadFromGmsec.o
+
+# Not a target:
+Kit/Source/msis86kit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Include/glkit.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42sensors.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/sphkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GSFC/Source/42fftb.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/IPC/SimReadFromGmsec.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/iokit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/dcmkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/nrlmsise00kit.o: Kit/Source/nrlmsise00kit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 283):
+	$(CC) $(CFLAGS) -c $(KITSRC)nrlmsise00kit.c -o $(OBJ)nrlmsise00kit.o
+
+Object/envkit.o: Kit/Source/envkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 262):
+	$(CC) $(CFLAGS) -c $(KITSRC)envkit.c -o $(OBJ)envkit.o
+
+# Not a target:
+Source/IPC/SimWriteToFile.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42perturb.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42CfdSlosh.o: GSFC/Source/42CfdSlosh.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 304):
+	$(CC) $(CFLAGS) -c $(GSFCSRC)42CfdSlosh.c -o $(OBJ)42CfdSlosh.o
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42fsw.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/AppWriteToGmsec.o: Source/IPC/AppWriteToGmsec.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 337):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppWriteToGmsec.c -o $(OBJ)AppWriteToGmsec.o
+
+Object/msis86kit.o: Kit/Source/msis86kit.c Kit/Include/msis86kit.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 286):
+	$(CC) $(CFLAGS) -c $(KITSRC)msis86kit.c -o $(OBJ)msis86kit.o
+
+Object/42init.o: Source/42init.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 244):
+	$(CC) $(CFLAGS) -c $(SRC)42init.c -o $(OBJ)42init.o
+
+# Not a target:
+Source/42glfwgui.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/42exec.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Include/geomkit.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/IPC/AppWriteToSocket.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42GlutGui.o: Source/42GlutGui.c Include/42.h Include/42GlutGui.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 241):
+	$(CC) $(CFLAGS) -c $(SRC)42GlutGui.c -o $(OBJ)42GlutGui.o
+
+# Not a target:
+Kit/Include/gmseckit.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/sphkit.o: Kit/Source/sphkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 298):
+	$(CC) $(CFLAGS) -c $(KITSRC)sphkit.c -o $(OBJ)sphkit.o
+
+# Not a target:
+Source/IPC/AppReadFromSocket.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/iokit.o: Kit/Source/iokit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 277):
+	$(CC) $(CFLAGS) -c $(KITSRC)iokit.c -o $(OBJ)iokit.o
+
+Object/42environs.o: Source/42environs.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 229):
+	$(CC) $(CFLAGS) -c $(SRC)42environs.c -o $(OBJ)42environs.o
+
+Object/42main.o: Source/42main.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	$(CC) $(CFLAGS) -c $(SRC)42main.c -o $(OBJ)42main.o
+
+Object/dcmkit.o: Kit/Source/dcmkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 259):
+	$(CC) $(CFLAGS) -c $(KITSRC)dcmkit.c -o $(OBJ)dcmkit.o
+
+# Not a target:
+Include/42.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/SimReadFromGmsec.o: Source/IPC/SimReadFromGmsec.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 325):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimReadFromGmsec.c -o $(OBJ)SimReadFromGmsec.o
+
+# Not a target:
+Kit/Source/mathkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+Object/AppReadFromFile.o: Source/IPC/AppReadFromFile.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 343):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppReadFromFile.c -o $(OBJ)AppReadFromFile.o
+
+Object/42nos3.o: Source/42nos3.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 352):
+	$(CC) $(CFLAGS) -c $(SRC)42nos3.c -o $(OBJ)42nos3.o
+
+Object/SimReadFromSocket.o: Source/IPC/SimReadFromSocket.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 328):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimReadFromSocket.c -o $(OBJ)SimReadFromSocket.o
+
+Object/AppWriteToFile.o: Source/IPC/AppWriteToFile.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 334):
+	$(CC) $(CFLAGS) -c $(IPCSRC)AppWriteToFile.c -o $(OBJ)AppWriteToFile.o
+
+# Not a target:
+Source/IPC/SimReadFromFile.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/SimWriteToGmsec.o: Source/IPC/SimWriteToGmsec.c Include/42.h Include/AcTypes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 316):
+	$(CC) $(CFLAGS) -c $(IPCSRC)SimWriteToGmsec.c -o $(OBJ)SimWriteToGmsec.o
+
+Object/42fftb.o: GSFC/Source/42fftb.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 307):
+	$(CC) $(CFLAGS) -c $(GSFCSRC)42fftb.c -o $(OBJ)42fftb.o
+
+# Not a target:
+Kit/Source/glkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Kit/Source/orbkit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Source/IPC/SimWriteToSocket.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42ephem.o: Source/42ephem.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 232):
+	$(CC) $(CFLAGS) -c $(SRC)42ephem.c -o $(OBJ)42ephem.o
+
+# Not a target:
+Source/IPC/AppReadFromGmsec.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/mathkit.o: Kit/Source/mathkit.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 280):
+	$(CC) $(CFLAGS) -c $(KITSRC)mathkit.c -o $(OBJ)mathkit.o
+
+# Not a target:
+Source/42init.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 361):
+	rm -f $(OBJ)*.o ./$(EXENAME) ./AcApp $(INOUT)*.42 ./Standalone/*.42 ./Demo/*.42 ./Rx/*.42 ./Tx/*.42
+
+# Not a target:
+Source/42GlutGui.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Object/42ipc.o: Source/42ipc.c Include/42.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 247):
+	$(CC) $(CFLAGS) -c $(SRC)42ipc.c -o $(OBJ)42ipc.o
+
+AcApp: Object/AcApp.o Object/dcmkit.o Object/mathkit.o Object/fswkit.o Object/iokit.o Object/timekit.o Object/AppReadFromFile.o Object/AppWriteToSocket.o Object/AppReadFromSocket.o Object/AppWriteToFile.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	$(CC) $(LFLAGS) -o AcApp $(OBJ)AcApp.o $(ACKITOBJ) $(ACIPCOBJ) $(GMSECOBJ) $(LIBS)
+
+# Not a target:
+Kit/Include/msis86kit.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=16/301=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 137 / storage = 2354 B / avg = 17 B
+# current buf: size = 8162 B / used = 2354 B / count = 137 / avg = 17 B
+
+# strcache performance: lookups = 281 / hit rate = 51%
+# hash-table stats:
+# Load=137/8192=2%, Rehash=0, Collisions=3/281=1%
+# Finished Make data base on Fri May 21 16:09:37 2021
+
+ 
